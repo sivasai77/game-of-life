@@ -13,6 +13,9 @@
         <easyb.version>1.4</easyb.version>
         <cobertura.version>2.6</cobertura.version>
         <!-- A workaround for a bug in PMD -->
+        <sonar.host.url>http://ec2-52-66-238-66.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		 <sonar.password>admin</sonar.password>
         <sourceJdk>1.8</sourceJdk>
         <targetJdk>1.8</targetJdk>
         <github.account>wakaleo</github.account>
